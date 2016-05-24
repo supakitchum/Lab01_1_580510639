@@ -13,8 +13,8 @@
 
 .dayred
 {
-    font-family: 'Poiret One', cursive;
     font-weight: bold;
+    font-family: 'Poiret One', cursive;
     color: red;
     border-radius: 2px;
 }
@@ -31,7 +31,7 @@
 {
     font-family: 'Poiret One', cursive;
     font-weight: bold;
-    color: #03C80C;
+    color: #009900;
 }
 body  {
     background-image: url('./bg.jpg');
@@ -100,4 +100,13 @@ body  {
 a:hover
 {
     text-shadow: 0 2px 10px #03C80C;
+}
+
+#buddha{
+    content: "";
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+    padding-left: 40px;
+    background: url(buddha.svg) top center no-repeat;
 }
