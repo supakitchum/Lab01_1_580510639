@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang = "en">
+<title>.:: Calendar ::.</title>
+<head>
+<meta charset="utf-8">
+</head>
+<link rel="stylesheet" type="text/css" href="Lab01_1_580510639.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+<!-- font css -->
+<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<!-- icon -->
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<body>
+<!-- ปกติ(สีฟ้า),วันหยุด(สีแดง), วันเกิด(สีเขียว) -->
+<div id="section" width="*">
+<img src="https://teepueppchen.files.wordpress.com/2014/11/november.png" width="100%" height="150px">
+    <table class="centered" width="*">
+        <thead>
+          <tr>
+              <th class="dayred">Sunday</th>
+              <th>Monday</th>
+              <th>Tuesday</th>
+              <th>Wednesday</th>
+              <th>Thursday</th>
+              <th>Friday</th>
+              <th>Saturday</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td class="daygreen"> </td>
+            <td> </td>
+            <td class="dayblue">1</td>
+            <td class="dayblue">2</td>
+            <td class="dayblue">3</td>
+            <td class="dayblue">4</td>
+            <td class="dayblue">5</td>
+          </tr>
+          <tr>
+            <td class="dayred">6</td>
+            <td class="daygreen"><a href="#popup1">7</td>
+            <td class="dayblue">8</td>
+            <td class="dayblue">9</td>
+            <td class="dayblue">10</td>
+            <td class="dayblue">11</td>
+            <td class="dayblue">12</td>
+          </tr>
+          <tr>
+            <td class="dayred">13</td>
+            <td class="dayblue">14</td>
+            <td class="dayblue">15</td>
+            <td class="dayblue">16</td>
+            <td class="dayblue">17</td>
+            <td class="dayblue">18</td>
+            <td class="dayblue">19</td>
+          </tr>
+          <tr>
+            <td class="dayred">20</td>
+            <td class="dayblue">21</td>
+            <td class="dayblue">22</td>
+            <td class="dayblue">23</td>
+            <td class="dayblue">24</td>
+            <td class="dayblue">25</td>
+            <td class="dayblue">26</td>
+          </tr>
+          <tr>
+            <td class="dayred">27</td>
+            <td class="dayblue">28</td>
+            <td class="dayblue">29</td>
+            <td class="dayblue">30</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      </div>
+<!-- popupwindows -->
+  <div id="popup1" class="overlay">
+  <div class="popup">
+    <i class="material-icons">room</i>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      This is my birthday.
+    </div>
+  </div>
+</div>
+<!-- end -->
+</body>
+</html>
