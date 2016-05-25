@@ -4,7 +4,6 @@
 <head>
 <meta charset="utf-8">
 </head>
-<link rel="stylesheet" type="text/css" href="Lab01_1_580510639.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
@@ -14,6 +13,7 @@
 <link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 <!-- icon -->
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <link rel="stylesheet" type="text/css" href="Lab01_1_580510639.css">
 <body>
 <!-- ปกติ(สีฟ้า),วันหยุด(สีแดง), วันเกิด(สีเขียว) -->
 <div id="section" width="*">
@@ -43,7 +43,19 @@
           </tr>
           <tr>
             <td class="dayred">6</td>
-            <td class="daygreen"><div id = "buddha"><a href="#popup1">7</a></div></td>
+            <td><div id = "buddha"></div><div id = "buddha"></div>
+            <!--Second tooltip-->
+            <a href="#" class="tooltip">
+            <div class = "daygreen">7</div>
+            <span>
+            <img class="callout" src="./callout.gif" />
+            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
+            <h5>วันพระ</h5><br />
+            <img src="./bd.jpg" style="float:left;" width="50px" height="50px" />
+            <h5>วันเกิด</h5><br>
+            </span>
+            </a>
+            </td>
             <td class="dayblue">8</td>
             <td class="dayblue">9</td>
             <td class="dayblue">10</td>
@@ -52,7 +64,18 @@
           </tr>
           <tr>
             <td class="dayred">13</td>
-            <td class="dayblue"><div id = "buddha"><a href="#popup2" >14</a></div></td>
+            <td class="dayblue"><div id = "buddha"></div><div id = "buddha"></div>
+            <!--Second tooltip-->
+            <a href="#" class="tooltip">
+            14
+            <span>
+            <img class="callout" src="./callout.gif" />
+            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
+            <h5>วันพระ</h5>
+            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
+            <h5>วันพระบิดาแห่งฝนหลวง</h5>
+            </span>
+            </a></td>
             <td class="dayblue">15</td>
             <td class="dayblue">16</td>
             <td class="dayblue">17</td>
@@ -62,7 +85,16 @@
           <tr>
             <td class="dayred">20</td>
             <td class="dayblue">21</td>
-            <td class="dayblue"><div id = "buddha"><a href="#popup2">22</a></div></td>
+            <td class="dayblue"><div id = "buddha"></div><div id = "buddha"></div>
+            <!--Second tooltip-->
+            <a href="#" class="tooltip">
+            22
+            <span>
+            <img class="callout" src="./callout.gif" />
+            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
+            <h5>วันพระ</h5><br />
+            </span>
+            </a></td>
             <td class="dayblue">23</td>
             <td class="dayblue">24</td>
             <td class="dayblue">25</td>
@@ -71,7 +103,18 @@
           <tr>
             <td class="dayred">27</td>
             <td class="dayblue">28</td>
-            <td class="dayblue"><div id = "buddha"><a href="#popup2">29</a></div></td>
+            <td class="dayblue">
+            <div id = "buddha"></div>
+            <!--Second tooltip-->
+            <a href="#" class="tooltip">
+            29
+            <span>
+            <img class="callout" src="./callout.gif" />
+            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
+            <h5>วันพระ</h5><br />
+            </span>
+            </a>
+            </td>
             <td class="dayblue">30</td>
             <td></td>
             <td></td>
@@ -81,7 +124,7 @@
       </table>
       </div>
 <!-- popupwindows -->
-  <div id="popup1" class="overlay">
+<!--   <div id="popup1" class="overlay">
   <div class="popup">
     <i class="material-icons">room</i>
     <a class="close" href="#">&times;</a>
@@ -90,10 +133,10 @@
       <img src="./hbd.png" width="*" height="150"></center>
     </div>
   </div>
-</div>
+</div> -->
 <!-- end -->
 <!-- popupwindows -->
-  <div id="popup2" class="overlay">
+<!--   <div id="popup2" class="overlay">
   <div class="popup">
     <i class="material-icons">room</i>
     <a class="close" href="#">&times;</a>
@@ -104,7 +147,7 @@
       </center>
     </div>
   </div>
-</div>
+</div> -->
 <!-- end -->
 </body>
 </html>
