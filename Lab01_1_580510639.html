@@ -10,7 +10,7 @@
 <!-- Compiled and minified JavaScript -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
 <!-- font css -->
-<link href='https://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Itim&subset=thai,latin' rel='stylesheet' type='text/css'>
 <!-- icon -->
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
  <link rel="stylesheet" type="text/css" href="Lab01_1_580510639.css">
@@ -21,7 +21,7 @@
     <table class="centered" width="*">
         <thead>
           <tr>
-              <th class="dayred">Sunday</th>
+              <th style="color:red">Sunday</th>
               <th>Monday</th>
               <th>Tuesday</th>
               <th>Wednesday</th>
@@ -43,16 +43,16 @@
           </tr>
           <tr>
             <td class="dayred">6</td>
-            <td><div id = "buddha"></div><div id = "buddha"></div>
+            <td class="daygreen"><div id = "buddha"></div><div id = "buddha"></div>
             <!--Second tooltip-->
             <a href="#" class="tooltip">
             <div class = "daygreen">7</div>
             <span>
             <img class="callout" src="./callout.gif" />
-            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
-            <h5>วันพระ</h5><br />
-            <img src="./bd.jpg" style="float:left;" width="50px" height="50px" />
-            <h5>วันเกิด</h5><br>
+            วันพระ
+            <br>
+            <br>
+            วันเกิด
             </span>
             </a>
             </td>
@@ -60,20 +60,31 @@
             <td class="dayblue">9</td>
             <td class="dayblue">10</td>
             <td class="dayblue">11</td>
-            <td class="dayblue">12</td>
+            <td class="dayblue" ><a href="#" class="tooltip">
+            <div id = "circle">12</div>
+            <span>
+            <img class="callout" src="./callout.gif" />
+            วันคนพิการ
+            </span>
+            </a></td>
           </tr>
           <tr>
             <td class="dayred">13</td>
             <td class="dayblue"><div id = "buddha"></div><div id = "buddha"></div>
             <!--Second tooltip-->
-            <a href="#" class="tooltip">
-            14
+            <a href="#" class="tooltip" id = "circle">
+            <div id = "circle">14</div>
             <span>
             <img class="callout" src="./callout.gif" />
-            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
-            <h5>วันพระ</h5>
-            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
-            <h5>วันพระบิดาแห่งฝนหลวง</h5>
+            <div style="text-align: left;">
+                วันพระ
+                <br>
+                <br>
+                วันพระบิดาฝนหลวง
+                <br>
+                <br>
+                วันลอยกระทง
+            </div>
             </span>
             </a></td>
             <td class="dayblue">15</td>
@@ -83,7 +94,13 @@
             <td class="dayblue">19</td>
           </tr>
           <tr>
-            <td class="dayred">20</td>
+            <td class="dayred"><a href="#" class="tooltip" >
+            <div class="dayred" id = "circle">20</div>
+            <span>
+            <img class="callout" src="./callout.gif" />
+            วันกองทัพเรือ
+            </span>
+            </a></td>
             <td class="dayblue">21</td>
             <td class="dayblue"><div id = "buddha"></div><div id = "buddha"></div>
             <!--Second tooltip-->
@@ -91,17 +108,30 @@
             22
             <span>
             <img class="callout" src="./callout.gif" />
-            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
-            <h5>วันพระ</h5><br />
+            <div style="text-align: left;">
+                วันพระ
+            </div>
             </span>
             </a></td>
             <td class="dayblue">23</td>
             <td class="dayblue">24</td>
-            <td class="dayblue">25</td>
+            <td class="dayblue"><a href="#" class="tooltip">
+            <div id = "circle">25</div>
+            <span>
+            <img class="callout" src="./callout.gif" />
+            วันประถมแห่งชาติ
+            </span>
+            </a></td>
             <td class="dayblue">26</td>
           </tr>
           <tr>
-            <td class="dayred">27</td>
+            <td class="dayred"><a href="#" class="tooltip" >
+            <div class="dayred" id = "circle">27</div>
+            <span>
+            <img class="callout" src="./callout.gif" />
+            วันสาธารณสุขแห่งชาติ
+            </span>
+            </a></td>
             <td class="dayblue">28</td>
             <td class="dayblue">
             <div id = "buddha"></div>
@@ -110,8 +140,7 @@
             29
             <span>
             <img class="callout" src="./callout.gif" />
-            <img src="./buddha.svg" style="float:left;" width="50px" height="50px" />
-            <h5>วันพระ</h5><br />
+            วันพระ
             </span>
             </a>
             </td>
